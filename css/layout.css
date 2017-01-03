@@ -178,8 +178,10 @@ ul#nav li a {
 	transition: color .2s ease-in-out;
 }
 
+/* Color for Banner is altered here */
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #76A1CF; }
+
 
 
 /* ------------------------------------------------------------------ */

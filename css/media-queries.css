@@ -112,7 +112,8 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #CC5200;
+      /*This is the color for the mobile bar selector*/
+		background-color: #76A1CF;
 		position: relative;
       border: none;
       float: right;
