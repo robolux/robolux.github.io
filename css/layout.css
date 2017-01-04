@@ -448,8 +448,8 @@ ul#nav li.current a { color: #76A1CF; }
 #f1_container {
   position: relative;
   margin: 10px auto;
-  width: 30px;
-  height: 30px;
+  width: 300px;
+  height: 300px;
   z-index: 1;
 }
 #f1_container {
