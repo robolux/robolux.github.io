@@ -674,6 +674,45 @@ call-to-action .button {
 	color: #D8D8D8;
 }
 
+
+/* 
+/*  blog Section
+/* =================================================================== */
+#blog {
+  background: #a43b0a url(../images/blog-bg.jpg) no-repeat bottom center fixed;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  padding-top: 120px;
+  padding-bottom: 108px;
+  width: 100%;
+}
+#blog h1, #blog h3, #blog h3 a {
+  color: white;
+}
+#blog h3 {
+  font: 16px/27px "raleway-heavy", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+#blog h5 {
+  font-size: 13px;
+  color: #f26522;
+  margin: 0;
+}
+#blog p {
+  color: #fffcfb;
+}
+#blog #blog-wrapper {
+  margin: 24px 0 0 0;
+}
+#blog #blog-wrapper .bgrid {
+  padding: 0 18px;
+}
+#blog #blog-wrapper article {
+  margin-bottom: 24px;
+}
+
 /* ------------------------------------------------------------------
 /* g. Favorite Quotes
 /* ------------------------------------------------------------------ */
