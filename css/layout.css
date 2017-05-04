@@ -1083,3 +1083,137 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+
+
+/* 
+/* Blog Entry
+/* =================================================================== */
+
+.entry .tags {
+  margin-top: 18px;
+  font-family: "raleway-regular", sans-serif;
+  color: #707273;
+}
+.entry .tags a {
+  font-family: "raleway-heavy", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #f26522;
+}
+.entry .tags a:hover {
+  color: #12151b;
+}
+
+/* comments
+-------------------------------------------------------------------- */
+#comments {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+#comments h3 {
+  font: 20px/30px "raleway-bold", sans-serif;
+  margin-bottom: 6px;
+}
+.commentlist {
+  margin: 30px 0 54px 0;
+  padding: 0;
+}
+.commentlist > li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  padding: 18px 0 18px 0;
+  padding-left: 14%;
+}
+.commentlist li .avatar {
+  position: absolute;
+  left: 0px;
+  display: block;
+  height: 48px;
+  width: 48px;
+}
+.commentlist li .avatar img {
+  margin-top: 6px;
+  height: 48px;
+  width: 48px;
+  border-radius: 100%;
+}
+.commentlist li .comment-info cite {
+  font: 14px/30px "raleway-heavy", sans-serif;
+  color: #252525;
+}
+.commentlist li .comment-info .comment-meta {
+  font-size: 13px;
+  line-height: 24px;
+  display: block;
+  color: #707273;
+}
+.commentlist li .comment-info .comment-meta .reply {
+  font-family: "raleway-bold", sans-serif;
+}
+.commentlist li .comment-info .comment-meta .sep {
+  margin: 0 5px;
+  color: #7d7e80;
+}
+.commentlist li .comment-text {
+  clear: both;
+  margin: 18px 0 0 0;
+  padding: 0;
+}
+.commentlist li ul.children {
+  margin: 0;
+  padding: 18px 0 0 0;
+  list-style: none;
+}
+.commentlist li ul.children li {
+  padding-left: 5%;
+  padding-top: 18px;  
+}
+
+/* comment form
+-------------------------------------------------------------------- */
+#comments form {
+  margin-top: 36px;
+}
+#comments form fieldset {
+  padding: 0;
+}
+#comments form label {
+  padding-left: 24px;
+  width: 41.66667%;
+  float: right;
+}
+#comments form div {
+  margin: 12px 0 18px 0;
+}
+#comments form input, 
+#comments form textarea, 
+#comments form select {
+  width: 58.33333%;
+  float: left;
+}
+#comments form .message label {
+  display: none;
+}
+#comments form textarea {
+  width: 100%;
+}
+#comments form span.required {
+  color: #f26522;
+  font-size: 15px;
+}
+#comments form button {
+  padding-left: 24px;
+  padding-right: 24px;
+  color: #f26522 !important;
+  border-color: #f26522 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+#comments form button:hover {
+  color: white !important;
+  background: #f26522 !important;
+}
+
